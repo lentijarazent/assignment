@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .section {
+            height: 100vh;
+            background-color: rgb(234, 229, 229);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            height: 10vh;
+            border-bottom: 1px solid black;
+            box-shadow: 0px 0px 5px 0px black;
+            position: fixed;
+            background-color: rgb(234, 229, 229);
+            width: 100%;
+            z-index: 100;
+            top: 0;
+        }
+        .company-name  {
+            font-size: 1.5vw;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+        }
+        ul li {
+            list-style: none;
+        }
+        ul li a {
+            text-decoration: none;
+            font-size: 1.5vw;
+            margin-right: 20px;
+            color: black;
+            margin-right: 50px;
+            margin-left: 80px;
+        }
+        .content {
+            font-size: 5vw;
+            color: #070707;
+            text-align: center;
+        }
+        .left {
+            float: left;
+            width: 50%;
+        }
+        .right {
+            float: right;
+            width: 50%;
+        }
+        .left img {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="nav">
+            <div class="company-name">
+                <h1>Razent Shop</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="category.html">Categories</a>
+                </li>
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="about us.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="left">
+            <img src="background (2).jpg" alt="">
+        </div>
+        <div class="right">
+            <h1 class="content">Drink it Believe it....</h1>
+        </div>
+    </div>
+</body>
+</html>
